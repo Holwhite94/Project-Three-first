@@ -71,6 +71,31 @@ header {
 
 }
 
+#howitworks {
+
+    #p4, #p6, #p8 {
+        color: white;
+        background-color: $primaryColor;
+        width: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 20px;
+    }
+
+    #choose, #create, #go {
+        display: flex;
+        flex-direction: row;
+        background-color: $background2;
+        width: 80%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        border-radius: 20px;
+
+    }
+}
+
 .restimg {
     height: 30%;
     width: 50%;
