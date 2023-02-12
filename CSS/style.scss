@@ -181,9 +181,28 @@ main {
 }
 footer {
     background-color: rgb(44, 44, 44);
+    padding-left: 20px;
+    padding-bottom: 20px;
 
    h1 {
     font: 'shrikhand';
     color: white;
+   }
+
+   p {
+    color: white;
+   }
+
+  #suggest, #become {
+    display: flex;
+    flex-direction: row;
+
+    i {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10px;
+       }
    }
 }
