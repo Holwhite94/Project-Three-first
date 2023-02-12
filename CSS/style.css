@@ -4,8 +4,18 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
+  animation-name: example;
+  animation-duration: 5s;
 }
 
+@keyframes example {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 header #logoheader {
   display: block;
   margin-left: auto;

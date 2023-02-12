@@ -21,6 +21,13 @@ body {
    font-family: $textFont;
    margin: 0px;
    padding: 0px;
+   animation-name: example;
+   animation-duration: 5s;
+}
+
+@keyframes example {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
 }
 
 header {
@@ -100,3 +107,4 @@ header {
     height: 30%;
     width: 50%;
 }
+
