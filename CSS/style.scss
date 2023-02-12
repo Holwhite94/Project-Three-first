@@ -13,7 +13,7 @@ $shadow:  #cccccc;
 /* fonts */
 
 $textFont: 'Roboto', sans-serif;
-$titlesFont: 'Shrikhand', cursive;
+$titlesFont: 'Shrikhand', cursive; 
 
 
 
@@ -21,14 +21,9 @@ body {
    font-family: $textFont;
    margin: 0px;
    padding: 0px;
-   animation-name: example;
-   animation-duration: 5s;
+   
 }
 
-@keyframes example {
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
 
 header {
 
@@ -77,8 +72,22 @@ header {
     }
 
 }
-
+main {
 #howitworks {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        padding-right: 60%;
+    }
+
+    i {
+        display: flex;
+        justify-content: center;
+        color: $primaryColor;
+    }
 
     #p4, #p6, #p8 {
         color: white;
@@ -96,15 +105,85 @@ header {
         flex-direction: row;
         background-color: $background2;
         width: 80%;
-        margin-left: 5%;
         margin-bottom: 5%;
         border-radius: 20px;
 
     }
 }
 
-.restimg {
-    height: 30%;
-    width: 50%;
+#restaurants {
+
+    background-color: $background2;
+    padding-top: 20px;
+
+    h2 {
+        padding-left: 70px;
+        padding-bottom: 20px;
+    }
+
+
+  .restimg {
+    height: 300px;
+    width: 80%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+   }
+
+ .restcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+    h5 {
+        font-size: larger;
+        margin: 2px;
+    }
+ }
+
+  .new {
+    position: absolute;
+    right: 15%;
+    background-color: $tertiaryColor;
+    color: #32b393;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+  }
+
+ .info {
+    padding: 5px;
+    min-width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 4px $shadow;
+    
+
+    i {
+     font-size: x-large ;
+     color: grey;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+    }
+
+    .txt {
+        display: flex;
+        flex-direction: column;
+        min-width: 80%;
+    }
 }
 
+}
+}
+footer {
+    background-color: rgb(44, 44, 44);
+
+   h1 {
+    font: 'shrikhand';
+    color: white;
+   }
+}
