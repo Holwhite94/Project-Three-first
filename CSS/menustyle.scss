@@ -50,6 +50,65 @@ body {
     #menu {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
+        background-color: $background2;
         
+        h1 {
+            font: $titlesFont;
+            font-size: xx-large;
+        }
+
+        #menutitle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+
+            i {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: xx-large;
+            }
+        }
+
+        h5 { 
+            font: $textFont;
+            font-size: x-large;
+            font-weight: lighter;
+            text-decoration: underline;
+            text-decoration-color: $tertiaryColor;
+            text-decoration-style: solid;
+            padding-left: 20px;
+        }
+
+        .menucard {
+            width: 90%;
+            padding: 10px;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+            box-shadow: 4px 4px 3px $shadow;
+
+            .menuitem {
+                font-weight: bolder;
+                font-size: large;
+            }
+
+            .price {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                font-weight: bolder;
+            }
+
+        }
+
+
+
+
     }
  }
