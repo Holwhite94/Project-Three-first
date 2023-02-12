@@ -1,0 +1,55 @@
+$primaryColor: #9356DC;
+$secondaryColor: #FF79DA ;
+$tertiaryColor: #99E2D0;
+
+$background1: #e6e6e6;
+$background2: #f2f2f2;
+
+$shadow:  #cccccc;
+
+/* fonts */
+
+$textFont: 'Roboto', sans-serif;
+$titlesFont: 'Shrikhand', cursive;
+
+
+body {
+    font-family: $textFont;
+    margin: 0px;
+    padding: 0px;
+    
+ }
+
+
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    img {
+        width: 50%;
+        padding-right: 20%;
+       
+    }
+
+    i {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+ }
+
+ main {
+    
+    img {
+        width: 100%;
+        height: 60%;
+    }
+
+    #menu {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        
+    }
+ }
