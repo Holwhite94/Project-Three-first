@@ -23,7 +23,8 @@ header i {
 
 main img {
   width: 100%;
-  height: 60%;
+  min-height: 40%;
+  overflow: hidden;
 }
 main #menu {
   border-top-right-radius: 20px;
@@ -76,4 +77,44 @@ main #menu .menucard .price {
   flex-direction: column;
   justify-content: flex-end;
   font-weight: bolder;
+}
+main #order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main #order input {
+  padding: 20px;
+  width: 20%;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #FF79DA, #9356DC);
+  border-style: none;
+  box-shadow: 5px 5px 3px #cccccc;
+}
+
+footer {
+  background-color: rgb(44, 44, 44);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+footer h1 {
+  font: "shrikhand", cursive;
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer #suggest, footer #become {
+  display: flex;
+  flex-direction: row;
+}
+footer #suggest i, footer #become i {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
 }/*# sourceMappingURL=menustyle.css.map */
