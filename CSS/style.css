@@ -44,115 +44,12 @@ header #booking input {
   box-shadow: 5px 5px 3px #cccccc;
 }
 
-main #howitworks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main #howitworks h2 {
-  padding-right: 60%;
-}
-main #howitworks i {
-  display: flex;
-  justify-content: center;
-  color: #9356DC;
-}
-main #howitworks #p4, main #howitworks #p6, main #howitworks #p8 {
-  color: white;
-  background-color: #9356DC;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 20px;
-}
-main #howitworks #choose, main #howitworks #create, main #howitworks #go {
-  display: flex;
-  flex-direction: row;
-  background-color: #f2f2f2;
-  width: 80%;
-  margin-bottom: 5%;
-  border-radius: 20px;
-}
-main #restaurants {
-  background-color: #f2f2f2;
-  padding-top: 20px;
-}
-main #restaurants h2 {
-  padding-left: 70px;
-  padding-bottom: 20px;
-}
-main #restaurants .restimg {
-  height: 300px;
-  width: 80%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-main #restaurants .restcards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main #restaurants .restcards h5 {
-  font-size: larger;
-  margin: 2px;
-}
-main #restaurants .new {
-  position: absolute;
-  right: 15%;
-  background-color: #99E2D0;
-  color: #32b393;
-  font-weight: bold;
-  font-size: larger;
-  padding: 5px;
-}
-main #restaurants .info {
-  padding: 5px;
-  min-width: 80%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  box-shadow: 4px 4px 4px #cccccc;
-}
-main #restaurants .info i {
-  font-size: x-large;
-  color: grey;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-main #restaurants .info .txt {
-  display: flex;
-  flex-direction: column;
-  min-width: 80%;
+#howitworks #p4, #howitworks #p6, #howitworks #p8 {
+  background-color: #FF79DA;
+  
 }
 
-footer {
-  background-color: rgb(44, 44, 44);
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-footer h1 {
-  font: "shrikhand", cursive;
-  color: white;
-}
-footer p {
-  color: white;
-}
-footer #suggest, footer #become {
-  display: flex;
-  flex-direction: row;
-}
-footer #suggest i, footer #become i {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 10px;
+.restimg {
+  height: 30%;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
