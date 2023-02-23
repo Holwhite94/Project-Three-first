@@ -13,7 +13,7 @@ $shadow:  #cccccc;
 /* fonts */
 
 $textFont: 'Roboto', sans-serif;
-$titlesFont: 'Shrikhand', cursive; 
+$titlesFont: 'Shrikhand'; 
 
 
 
@@ -83,24 +83,8 @@ main {
         padding-right: 60%;
     }
 
-    i {
-        display: flex;
-        justify-content: center;
-        color: $primaryColor;
-    }
 
-    #p4, #p6, #p8 {
-        color: white;
-        background-color: $primaryColor;
-        width: fit-content;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 20px;
-    }
-
-    #choose, #create, #go {
+    .howcard {
         display: flex;
         flex-direction: row;
         background-color: $background2;
@@ -108,7 +92,43 @@ main {
         margin-bottom: 5%;
         border-radius: 20px;
 
+    i {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: #7f7987;
     }
+
+        #p4, #p6, #p8 {
+            color: white;
+            background-color: $primaryColor;
+            width: fit-content;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 20px;
+            margin-left: -20px;
+        }
+    
+        #p5, #p7, #p9 {
+            font-size: larger;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+        }
+    }
+
+    .howcard:hover {
+        background-color: #f1e4ff;
+        
+         i {
+            color:$primaryColor;
+        }
+    }
+
+    
 }
 
 #restaurants {
