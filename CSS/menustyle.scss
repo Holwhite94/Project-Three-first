@@ -56,6 +56,7 @@ body {
         background-color: $background2;
         
         
+        
         h1 {
             font: $titlesFont;
             font-size: xx-large;
@@ -96,8 +97,10 @@ body {
             background-color: white;
             box-shadow: 4px 4px 3px $shadow;
             overflow: hidden;
-            
+            animation-name: animation3;
+            animation-duration: 2s;
 
+           
             .menuitem {
                 font-weight: bolder;
                 font-size: large;
@@ -131,32 +134,58 @@ body {
                 border-radius: 20px;
                 padding: 10px;
                 font-size: large;
-                // transition: transform 2s;
-               
-              
-             
-                animation-name: myanimation;
+                animation-name: animation1;
                 animation-duration: 3s;
                 animation-iteration-count: infinite;
-
               }
-             }
+            }
+          }
+          
+          #one, #two {
+            animation-name: animation2;
+            animation-duration: 2s;
+          }
 
-              @keyframes myanimation {
-                from {transform: rotate(0deg)}
-                to {transform: rotate(-160deg)}
-              }
-              
-              #txt:hover {
-                min-width: 70%;
-              }
+          #three, #four {
+            animation-name: animation2;
+            animation-duration: 3s;
+          }
 
+          #five, #six {
+            animation-name: animation2;
+            animation-duration: 4s;
+          }
 
+          #seven, #eight {
+            animation-name: animation2;
+            animation-duration: 5s;
+          }
 
+          #nine {
+            animation-name: animation2;
+            animation-duration: 5.5s;
+          }
+       
 
+          @keyframes animation1 {
+            from {transform: rotate(0deg)}
+            to {transform: rotate(-360deg)}
+          }
+          
+          #txt:hover {
+            min-width: 70%;
+          }
 
+          @keyframes animation2 {
+            from {opacity: 0%;}
+            to {opacity: 100%;}
+          }
+          
+          @keyframes animation3 {
+             from {margin-top: -20px;}
+            to {margin-top: 0px;}
+          }
         }
-    }
 
     // @media (min-width: 769px)
     // need to do media queries to make sure animations work on large screen

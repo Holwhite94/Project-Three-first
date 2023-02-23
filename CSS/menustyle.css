@@ -69,6 +69,8 @@ main #menu .menucard {
   background-color: white;
   box-shadow: 4px 4px 3px #cccccc;
   overflow: hidden;
+  animation-name: animation3;
+  animation-duration: 2s;
 }
 main #menu .menucard .menuitem {
   font-weight: bolder;
@@ -99,20 +101,56 @@ main #menu .menucard #tickdiv #tick {
   border-radius: 20px;
   padding: 10px;
   font-size: large;
-  animation-name: myanimation;
+  animation-name: animation1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-@keyframes myanimation {
+main #menu #one, main #menu #two {
+  animation-name: animation2;
+  animation-duration: 2s;
+}
+main #menu #three, main #menu #four {
+  animation-name: animation2;
+  animation-duration: 3s;
+}
+main #menu #five, main #menu #six {
+  animation-name: animation2;
+  animation-duration: 4s;
+}
+main #menu #seven, main #menu #eight {
+  animation-name: animation2;
+  animation-duration: 5s;
+}
+main #menu #nine {
+  animation-name: animation2;
+  animation-duration: 5.5s;
+}
+@keyframes animation1 {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-160deg);
+    transform: rotate(-360deg);
   }
 }
-main #menu .menucard #txt:hover {
+main #menu #txt:hover {
   min-width: 70%;
+}
+@keyframes animation2 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes animation3 {
+  from {
+    margin-top: -20px;
+  }
+  to {
+    margin-top: 0px;
+  }
 }
 main #order {
   display: flex;
