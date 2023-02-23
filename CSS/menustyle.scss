@@ -45,12 +45,14 @@ body {
     img {
         width: 100%;
         min-height: 40%;
-        overflow: hidden;
+        position: relative;
+        z-index: -1;
     }
 
     #menu {
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        margin-top: -100px;
         background-color: $background2;
         
         
@@ -84,8 +86,8 @@ body {
         }
 
         .menucard {
-            width: 90%;
-            margin-left: 30px;
+            width: 95%;
+            margin-left: 20px;
             margin-bottom: 20px;
             border-radius: 20px;
             display: flex;
@@ -94,6 +96,7 @@ body {
             background-color: white;
             box-shadow: 4px 4px 3px $shadow;
             overflow: hidden;
+            
 
             .menuitem {
                 font-weight: bolder;
@@ -105,24 +108,12 @@ body {
                 flex-direction: column;
                 justify-content: flex-end;
                 font-weight: bolder;
-                margin-right: 20px;
+                margin-right: 50px;
             }
 
-            // #container { 
-            //     display: flex;
-            //     margin: 10px;
-            //     border-radius: 5px;
-            //     width: 200px;
-            //     overflow: hidden;
-            //     height: 70px;
-            //     box-shadow: 2px 2px 2px 2px grey;
-            //     background-color: blue;
-            //    }
-              
-              
-              
+           
               #txt {
-                min-width: 95%;
+                min-width: 90%;
                 padding: 10px;
                 transition: min-width 3s;
                 }
@@ -140,22 +131,24 @@ body {
                 border-radius: 20px;
                 padding: 10px;
                 font-size: large;
-                transition: transform 2s;
-               }
+                // transition: transform 2s;
+               
               
-              #tick {
+             
                 animation-name: myanimation;
                 animation-duration: 3s;
+                animation-iteration-count: infinite;
+
               }
              }
 
               @keyframes myanimation {
                 from {transform: rotate(0deg)}
-                to {transform: rotate(-360deg)}
+                to {transform: rotate(-160deg)}
               }
               
               #txt:hover {
-                min-width: 85%;
+                min-width: 70%;
               }
 
 
@@ -164,6 +157,9 @@ body {
 
         }
     }
+
+    // @media (min-width: 769px)
+    // need to do media queries to make sure animations work on large screen
    
     #order{
 

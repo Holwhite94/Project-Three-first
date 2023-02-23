@@ -24,11 +24,13 @@ header i {
 main img {
   width: 100%;
   min-height: 40%;
-  overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
 main #menu {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -100px;
   background-color: #f2f2f2;
 }
 main #menu h1 {
@@ -57,8 +59,8 @@ main #menu h5 {
   padding-left: 20px;
 }
 main #menu .menucard {
-  width: 90%;
-  margin-left: 30px;
+  width: 95%;
+  margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
   display: flex;
@@ -77,10 +79,10 @@ main #menu .menucard .price {
   flex-direction: column;
   justify-content: flex-end;
   font-weight: bolder;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 main #menu .menucard #txt {
-  min-width: 95%;
+  min-width: 90%;
   padding: 10px;
   transition: min-width 3s;
 }
@@ -97,22 +99,20 @@ main #menu .menucard #tickdiv #tick {
   border-radius: 20px;
   padding: 10px;
   font-size: large;
-  transition: transform 2s;
-}
-main #menu .menucard #tickdiv #tick {
   animation-name: myanimation;
   animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 @keyframes myanimation {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(-160deg);
   }
 }
 main #menu .menucard #txt:hover {
-  min-width: 85%;
+  min-width: 70%;
 }
 main #order {
   display: flex;
