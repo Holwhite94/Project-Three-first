@@ -142,6 +142,13 @@ main #restaurants .info i {
   flex-direction: row;
   align-items: center;
 }
+main #restaurants .info a {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+  text-decoration: unset;
+  color: black;
+}
 main #restaurants .info .txt {
   display: flex;
   flex-direction: column;
@@ -154,7 +161,7 @@ footer {
   padding-bottom: 20px;
 }
 footer h1 {
-  font: "Shrikhand", cursive;
+  font-family: "Shrikhand", cursive;
   color: white;
 }
 footer p {

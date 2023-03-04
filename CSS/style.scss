@@ -13,7 +13,7 @@ $shadow:  #cccccc;
 /* fonts */
 
 $textFont: 'Roboto', sans-serif;
-$titlesFont: 'Shrikhand'; 
+$titlesFont: 'Shrikhand', cursive; 
 
 
 
@@ -133,6 +133,7 @@ main {
 
 #restaurants {
 
+ 
     background-color: $background2;
     padding-top: 20px;
 
@@ -190,6 +191,14 @@ main {
      align-items: center;
     }
 
+    a {
+        display: flex;
+        flex-direction: column;
+        min-width: 80%;
+        text-decoration: unset;
+        color: black;
+    }
+
     .txt {
         display: flex;
         flex-direction: column;
@@ -205,7 +214,7 @@ footer {
     padding-bottom: 20px;
 
    h1 {
-    font: 'Shrikhand', cursive; 
+    font-family: $titlesFont;
     color: white;
    }
 
