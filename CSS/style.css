@@ -106,6 +106,7 @@ main #restaurants .restimg {
      object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  box-shadow: 4px 0px 4px #cccccc;
 }
 main #restaurants .restcards {
   display: flex;
@@ -136,11 +137,32 @@ main #restaurants .info {
   box-shadow: 4px 4px 4px #cccccc;
 }
 main #restaurants .info i {
-  font-size: x-large;
+  font-size: xx-large;
+  position: absolute;
+  animation-name: animationheart;
+  animation-duration: 3s;
+}
+main #restaurants .info #heartone {
   color: grey;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+}
+main #restaurants .info #hearttwo {
+  color: #FF79DA;
+  z-index: -1;
+  display: none;
+  animation-name: animationheart;
+  animation-duration: 1s;
+}
+main #restaurants .info #wrap:hover #hearttwo {
+  display: block;
+  z-index: 1;
+}
+@keyframes animationheart {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 main #restaurants .info a {
   display: flex;

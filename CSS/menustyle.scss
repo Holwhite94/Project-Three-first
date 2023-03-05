@@ -32,11 +32,13 @@ body {
        
     }
 
-    i {
+    a {
     font-size: xx-large;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: unset;
+    color: black;
     }
  }
 
@@ -68,12 +70,48 @@ body {
             justify-content: space-between;
             padding: 20px;
 
+            // i {
+            //     display: flex;
+            //     flex-direction: column;
+            //     justify-content: center;
+            //     font-size: xx-large;
+                
+            // }
+
+
             i {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                font-size: xx-large;
+              font-size: xx-large;
+              position: absolute;
+              margin-left: -50px;
+              margin-top: 10px;
+              animation-name: animationheart;
+              animation-duration: 3s;
+              
+             }
+            
+            #heartone {
+              color: grey;
             }
+            
+            #hearttwo {
+              color: $secondaryColor;
+              z-index: -1;
+              display: none;
+              animation-name: animationheart;
+              animation-duration: 1s;
+              
+             }
+            
+            #wrap:hover #hearttwo {
+             display: block;
+             z-index: 1;
+             }
+            
+            
+            @keyframes animationheart {
+                        from {opacity: 0%;}
+                        to {opacity: 100%;}
+                      }
         }
 
         h5 { 

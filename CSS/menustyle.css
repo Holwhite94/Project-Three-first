@@ -14,11 +14,13 @@ header img {
   width: 50%;
   padding-right: 20%;
 }
-header i {
+header a {
   font-size: xx-large;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-decoration: unset;
+  color: black;
 }
 
 main img {
@@ -44,10 +46,34 @@ main #menu #menutitle {
   padding: 20px;
 }
 main #menu #menutitle i {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: xx-large;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 10px;
+  animation-name: animationheart;
+  animation-duration: 3s;
+}
+main #menu #menutitle #heartone {
+  color: grey;
+}
+main #menu #menutitle #hearttwo {
+  color: #FF79DA;
+  z-index: -1;
+  display: none;
+  animation-name: animationheart;
+  animation-duration: 1s;
+}
+main #menu #menutitle #wrap:hover #hearttwo {
+  display: block;
+  z-index: 1;
+}
+@keyframes animationheart {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 main #menu h5 {
   font: "Roboto", sans-serif;

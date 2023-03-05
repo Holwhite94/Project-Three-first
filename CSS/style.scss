@@ -149,6 +149,7 @@ main {
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    box-shadow: 4px 0px 4px #cccccc;
    }
 
  .restcards {
@@ -183,13 +184,45 @@ main {
     box-shadow: 4px 4px 4px $shadow;
     
 
+    // i {
+    //  font-size: x-large ;
+    //  color: grey;
+    //  display: flex;
+    //  flex-direction: row;
+    //  align-items: center;
+    // }
+
     i {
-     font-size: x-large ;
-     color: grey;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-    }
+        font-size: xx-large;
+        position: absolute;
+        animation-name: animationheart;
+        animation-duration: 3s;
+        
+       }
+      
+      #heartone {
+        color: grey;
+      }
+      
+      #hearttwo {
+        color: $secondaryColor;
+        z-index: -1;
+        display: none;
+        animation-name: animationheart;
+        animation-duration: 1s;
+        
+       }
+      
+      #wrap:hover #hearttwo {
+       display: block;
+       z-index: 1;
+       }
+      
+      
+      @keyframes animationheart {
+                  from {opacity: 0%;}
+                  to {opacity: 100%;}
+                }
 
     a {
         display: flex;
