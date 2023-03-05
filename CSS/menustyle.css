@@ -178,6 +178,18 @@ main #menu #txt:hover {
     margin-top: 0px;
   }
 }
+@media screen and (min-width: 768px) {
+  main #menu .menucard {
+    width: 90%;
+    margin-left: 30px;
+  }
+  main #menu #txt {
+    min-width: 90%;
+  }
+  main #menu .price {
+    padding-left: 70px;
+  }
+}
 main #order {
   display: flex;
   flex-direction: row;

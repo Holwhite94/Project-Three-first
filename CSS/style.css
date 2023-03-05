@@ -108,6 +108,17 @@ main #restaurants .restimg {
   border-top-left-radius: 10px;
   box-shadow: 4px 0px 4px #cccccc;
 }
+@media screen and (min-width: 768px) {
+  main #restaurants .restimg {
+    height: 500px;
+  }
+  main #restaurants h2 {
+    padding-left: 100px;
+  }
+  main #restaurants .restcards {
+    margin: 30px;
+  }
+}
 main #restaurants .restcards {
   display: flex;
   flex-direction: column;
@@ -141,6 +152,12 @@ main #restaurants .info i {
   position: absolute;
   animation-name: animationheart;
   animation-duration: 3s;
+}
+@media screen and (min-width: 768px) {
+  main #restaurants .info i {
+    margin-left: 150px;
+    margin-top: 20px;
+  }
 }
 main #restaurants .info #heartone {
   color: grey;

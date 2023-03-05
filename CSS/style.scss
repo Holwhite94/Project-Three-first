@@ -152,6 +152,21 @@ main {
     box-shadow: 4px 0px 4px #cccccc;
    }
 
+   @media screen and (min-width: 768px) {
+
+    .restimg {
+        height: 500px;
+        
+    }
+    h2 {
+        padding-left: 100px;
+    }
+
+    .restcards {
+        margin: 30px;
+    }
+   }
+
  .restcards {
     display: flex;
     flex-direction: column;
@@ -184,21 +199,19 @@ main {
     box-shadow: 4px 4px 4px $shadow;
     
 
-    // i {
-    //  font-size: x-large ;
-    //  color: grey;
-    //  display: flex;
-    //  flex-direction: row;
-    //  align-items: center;
-    // }
-
     i {
         font-size: xx-large;
         position: absolute;
         animation-name: animationheart;
         animation-duration: 3s;
-        
-       }
+    }
+
+    @media screen and (min-width: 768px) {
+        i {
+            margin-left: 150px;
+            margin-top: 20px;
+        }
+    }
       
       #heartone {
         color: grey;

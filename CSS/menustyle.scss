@@ -70,16 +70,7 @@ body {
             justify-content: space-between;
             padding: 20px;
 
-            // i {
-            //     display: flex;
-            //     flex-direction: column;
-            //     justify-content: center;
-            //     font-size: xx-large;
-                
-            // }
-
-
-            i {
+           i {
               font-size: xx-large;
               position: absolute;
               margin-left: -50px;
@@ -137,7 +128,7 @@ body {
             overflow: hidden;
             animation-name: animation3;
             animation-duration: 2s;
-
+            
            
             .menuitem {
                 font-weight: bolder;
@@ -223,12 +214,26 @@ body {
              from {margin-top: -20px;}
             to {margin-top: 0px;}
           }
+
+          @media screen and (min-width: 768px) {
+            .menucard {
+              width: 90%;
+              margin-left: 30px;
+            }
+
+            #txt {
+              min-width: 90%;
+            }
+
+            .price { 
+              padding-left: 70px;
+            }
+
+
+          }
         }
 
-    // @media (min-width: 769px)
-    // need to do media queries to make sure animations work on large screen
-   
-    #order{
+     #order{
 
         display: flex;
         flex-direction: row;
