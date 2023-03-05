@@ -69,6 +69,11 @@ header {
             box-shadow: 5px 5px 3px $shadow;
         }
 
+        input:hover {
+            opacity: 70%;
+            box-shadow: 7px 7px 5px $shadow;
+        }
+
     }
 
 }
@@ -153,6 +158,14 @@ main {
    }
 
    @media screen and (min-width: 768px) {
+
+    .restimg {
+        height: 400px;
+
+    }
+   }
+
+   @media screen and (min-width: 992px) {
 
     .restimg {
         height: 500px;

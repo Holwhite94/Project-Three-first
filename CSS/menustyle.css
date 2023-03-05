@@ -215,6 +215,10 @@ main #order input {
   border-style: none;
   box-shadow: 5px 5px 3px #cccccc;
 }
+main #order input:hover {
+  opacity: 70%;
+  box-shadow: 7px 7px 5px #cccccc;
+}
 
 footer {
   background-color: rgb(44, 44, 44);

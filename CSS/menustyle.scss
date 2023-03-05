@@ -260,6 +260,11 @@ body {
           box-shadow: 5px 5px 3px $shadow;
          }
 
+         input:hover {
+          opacity: 70%;
+          box-shadow: 7px 7px 5px $shadow;
+      }
+
     }
  }
 
