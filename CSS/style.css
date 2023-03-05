@@ -153,12 +153,6 @@ main #restaurants .info i {
   animation-name: animationheart;
   animation-duration: 3s;
 }
-@media screen and (min-width: 768px) {
-  main #restaurants .info i {
-    margin-left: 150px;
-    margin-top: 20px;
-  }
-}
 main #restaurants .info #heartone {
   color: grey;
 }
@@ -168,6 +162,11 @@ main #restaurants .info #hearttwo {
   display: none;
   animation-name: animationheart;
   animation-duration: 1s;
+}
+main #restaurants .info #wrap {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
 }
 main #restaurants .info #wrap:hover #hearttwo {
   display: block;
