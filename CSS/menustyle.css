@@ -57,7 +57,10 @@ main #menu #menutitle #heartone {
   color: grey;
 }
 main #menu #menutitle #hearttwo {
-  color: #FF79DA;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #FF79DA, #9356dc);
   z-index: -1;
   display: none;
   animation-name: animationheart;

@@ -157,7 +157,10 @@ main #restaurants .info #heartone {
   color: grey;
 }
 main #restaurants .info #hearttwo {
-  color: #FF79DA;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #FF79DA, #9356dc);
   z-index: -1;
   display: none;
   animation-name: animationheart;
@@ -215,4 +218,8 @@ footer #suggest i, footer #become i {
   flex-direction: column;
   justify-content: center;
   padding-right: 10px;
+}
+footer a {
+  text-decoration: unset;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

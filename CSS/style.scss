@@ -212,13 +212,15 @@ main {
       }
       
       #hearttwo {
-        color: $secondaryColor;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient( to right, #FF79DA, #9356dc);
         z-index: -1;
         display: none;
         animation-name: animationheart;
         animation-duration: 1s;
-        
-       }
+    }
 
        #wrap {
         display: flex;
@@ -279,5 +281,10 @@ footer {
         justify-content: center;
         padding-right: 10px;
        }
+   }
+
+   a {
+    text-decoration: unset;
+    color: white;
    }
 }
