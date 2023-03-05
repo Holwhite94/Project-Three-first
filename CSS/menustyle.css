@@ -208,7 +208,7 @@ main #order input {
   margin-bottom: 30px;
   font-weight: bold;
   color: white;
-  background-image: linear-gradient(to right, #FF79DA, #9356DC);
+  background-image: linear-gradient(to right, #FF79DA, #9356dc);
   border-style: none;
   box-shadow: 5px 5px 3px #cccccc;
 }
@@ -235,4 +235,8 @@ footer #suggest i, footer #become i {
   flex-direction: column;
   justify-content: center;
   padding-right: 10px;
+}
+footer a {
+  text-decoration: unset;
+  color: white;
 }/*# sourceMappingURL=menustyle.css.map */

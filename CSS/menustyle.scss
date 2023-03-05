@@ -1,4 +1,4 @@
-$primaryColor: #9356DC;
+$primaryColor: #9356dc;
 $secondaryColor: #FF79DA ;
 $tertiaryColor: #99E2D0;
 
@@ -285,5 +285,9 @@ body {
         justify-content: center;
         padding-right: 10px;
        }
+   }
+   a {
+    text-decoration: unset;
+    color: white;
    }
 }
