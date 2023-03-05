@@ -220,11 +220,11 @@ main {
     }
 
   
-       #heartone {
+       .fa-regular {
         color: grey;
       }
       
-      #hearttwo {
+      .fa-solid {
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
@@ -235,13 +235,13 @@ main {
         animation-duration: 1s;
     }
 
-       #wrap {
+       .wrap {
         display: flex;
         align-items: center;
         padding-left: 70px;
        }
       
-      #wrap:hover #hearttwo {
+      .wrap:hover .fa-solid {
        display: block;
        z-index: 1;
        }

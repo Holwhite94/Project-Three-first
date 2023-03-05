@@ -162,10 +162,10 @@ main #restaurants .info i {
   animation-name: animationheart;
   animation-duration: 3s;
 }
-main #restaurants .info #heartone {
+main #restaurants .info .fa-regular {
   color: grey;
 }
-main #restaurants .info #hearttwo {
+main #restaurants .info .fa-solid {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -175,12 +175,12 @@ main #restaurants .info #hearttwo {
   animation-name: animationheart;
   animation-duration: 1s;
 }
-main #restaurants .info #wrap {
+main #restaurants .info .wrap {
   display: flex;
   align-items: center;
   padding-left: 70px;
 }
-main #restaurants .info #wrap:hover #hearttwo {
+main #restaurants .info .wrap:hover .fa-solid {
   display: block;
   z-index: 1;
 }

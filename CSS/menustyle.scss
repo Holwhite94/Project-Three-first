@@ -80,11 +80,11 @@ body {
               
              }
             
-            #heartone {
+            .fa-regular {
               color: grey;
             }
             
-            #hearttwo {
+            .fa-solid  {
               color: transparent;
               background-clip: text;
               -webkit-background-clip: text;
@@ -96,7 +96,7 @@ body {
               
              }
             
-            #wrap:hover #hearttwo {
+            .wrap:hover .fa-solid {
              display: block;
              z-index: 1;
              }
@@ -147,20 +147,20 @@ body {
             }
 
            
-              #txt {
+              .txt {
                 min-width: 90%;
                 padding: 10px;
                 transition: min-width 3s;
                 }
 
-            #tickdiv {
+            .tickdiv {
              display: flex;
              align-items: center;
              justify-content: center;
              background-color: $tertiaryColor;
              width: 100px;
               
-              #tick {
+              i {
                 color: $tertiaryColor;
                 background-color: white;
                 border-radius: 20px;
@@ -204,7 +204,7 @@ body {
             to {transform: rotate(-360deg)}
           }
           
-          #txt:hover {
+          .txt:hover {
             min-width: 70%;
           }
 
@@ -224,7 +224,7 @@ body {
               margin-left: 30px;
             }
 
-            #txt {
+            .txt {
               min-width: 90%;
             }
 

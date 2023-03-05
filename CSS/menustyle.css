@@ -53,10 +53,10 @@ main #menu #menutitle i {
   animation-name: animationheart;
   animation-duration: 3s;
 }
-main #menu #menutitle #heartone {
+main #menu #menutitle .fa-regular {
   color: grey;
 }
-main #menu #menutitle #hearttwo {
+main #menu #menutitle .fa-solid {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -66,7 +66,7 @@ main #menu #menutitle #hearttwo {
   animation-name: animationheart;
   animation-duration: 1s;
 }
-main #menu #menutitle #wrap:hover #hearttwo {
+main #menu #menutitle .wrap:hover .fa-solid {
   display: block;
   z-index: 1;
 }
@@ -112,19 +112,19 @@ main #menu .menucard .price {
   font-weight: bolder;
   margin-right: 50px;
 }
-main #menu .menucard #txt {
+main #menu .menucard .txt {
   min-width: 90%;
   padding: 10px;
   transition: min-width 3s;
 }
-main #menu .menucard #tickdiv {
+main #menu .menucard .tickdiv {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #99E2D0;
   width: 100px;
 }
-main #menu .menucard #tickdiv #tick {
+main #menu .menucard .tickdiv i {
   color: #99E2D0;
   background-color: white;
   border-radius: 20px;
@@ -162,7 +162,7 @@ main #menu #nine {
     transform: rotate(-360deg);
   }
 }
-main #menu #txt:hover {
+main #menu .txt:hover {
   min-width: 70%;
 }
 @keyframes animation2 {
@@ -186,7 +186,7 @@ main #menu #txt:hover {
     width: 90%;
     margin-left: 30px;
   }
-  main #menu #txt {
+  main #menu .txt {
     min-width: 90%;
   }
   main #menu .price {
