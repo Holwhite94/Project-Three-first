@@ -106,7 +106,7 @@ body header #booking input {
   border-radius: 15px;
   font-weight: bold;
   color: white;
-  background-image: linear-gradient(to right, #FF79DA, #9356DC);
+  background-image: linear-gradient(to right, #FF79DA, #9356dc);
   border-style: none;
   box-shadow: 5px 5px 3px #cccccc;
 }
@@ -138,7 +138,7 @@ body main #howitworks .howcard i {
 }
 body main #howitworks .howcard #p4, body main #howitworks .howcard #p6, body main #howitworks .howcard #p8 {
   color: white;
-  background-color: #9356DC;
+  background-color: #9356dc;
   width: -moz-fit-content;
   width: fit-content;
   padding-top: 10px;
@@ -159,7 +159,7 @@ body main #howitworks .howcard:hover {
   background-color: #f1e4ff;
 }
 body main #howitworks .howcard:hover i {
-  color: #9356DC;
+  color: #9356dc;
 }
 body main #restaurants {
   background-color: #f2f2f2;
