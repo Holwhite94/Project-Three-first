@@ -24,7 +24,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 10px dashed #FF79DA ;
+    border: 10px dashed #FF79DA;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -87,7 +87,7 @@ body {
 
 
 
-header {
+ header {
 
     #logoheader {
         display: block;
@@ -138,8 +138,8 @@ header {
 
     }
 
-}
-main {
+ }
+ main {
 #howitworks {
 
     display:flex;
@@ -330,8 +330,8 @@ main {
 }
 
 }
-}
-footer {
+ }
+  footer {
     background-color: rgb(44, 44, 44);
     padding-left: 20px;
     padding-bottom: 20px;
@@ -362,6 +362,6 @@ footer {
     text-decoration: unset;
     color: white;
    }
-}
+  }
 
 }
