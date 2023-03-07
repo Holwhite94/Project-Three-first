@@ -1,6 +1,5 @@
 
 
-
 $primaryColor: #9356dc;
 $secondaryColor: #FF79DA;
 $tertiaryColor: #99E2D0;
@@ -158,12 +157,12 @@ body {
         margin-bottom: 5%;
         border-radius: 20px;
 
-    i {
+      i {
         display: flex;
         align-items: center;
         padding: 20px;
         color: #7f7987;
-    }
+       }
 
         #p4, #p6, #p8 {
             color: white;
@@ -348,7 +347,7 @@ body {
     display: flex;
     flex-direction: row;
 
-    i {
+      i {
         color: white;
         display: flex;
         flex-direction: column;
