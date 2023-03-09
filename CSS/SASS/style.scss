@@ -65,8 +65,8 @@ body {
 
   .overlay {
     position: absolute;
-    background-color: #f2f2f2;
-    opacity: 80%;
+    background-color: white;
+    opacity: 50%;
     width: 100%;
     height: 200%;
     z-index: 1;
@@ -75,11 +75,16 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
    }
+     
+
+@keyframes overlayload {
+    from {z-index: 1;}
+    to { z-index: -1;}
+    
+}
+
   
-  @keyframes overlayload {
-    from {transform:translateY(0);}
-     to {transform: translateY(-100%);}
-  }    
+
 
    
 
