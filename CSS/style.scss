@@ -42,6 +42,8 @@ body {
     animation: spinner 5s;
     z-index: 2;
     position: fixed;
+    height:100px;
+    width: 100px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -70,14 +72,14 @@ body {
     width: 100%;
     height: 200%;
     z-index: 1;
-    animation-name: overlayload;
+    animation-name: overlayloader;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
    }
      
 
-@keyframes overlayload {
+@keyframes overlayloader {
     from {z-index: 1;}
     to { z-index: -1;}
     
@@ -91,6 +93,8 @@ body {
 
 
  header {
+
+    z-index: 0;
 
     #logoheader {
         display: block;
@@ -143,6 +147,9 @@ body {
 
  }
  main {
+    
+  z-index: 1;
+
 #howitworks {
 
     display:flex;

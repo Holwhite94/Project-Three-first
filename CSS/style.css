@@ -28,6 +28,8 @@ body .loadwrap {
   animation: spinner 5s;
   z-index: 2;
   position: fixed;
+  height: 100px;
+  width: 100px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -55,23 +57,26 @@ body .loadwrap {
 }
 body .overlay {
   position: absolute;
-  background-color: #f2f2f2;
-  opacity: 80%;
+  background-color: white;
+  opacity: 50%;
   width: 100%;
   height: 200%;
   z-index: 1;
-  animation-name: overlayload;
+  animation-name: overlayloader;
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-@keyframes overlayload {
+@keyframes overlayloader {
   from {
-    transform: translateY(0);
+    z-index: 1;
   }
   to {
-    transform: translateY(-100%);
+    z-index: -1;
   }
+}
+body header {
+  z-index: 0;
 }
 body header #logoheader {
   display: block;
@@ -113,6 +118,9 @@ body header #booking input {
 body header #booking input:hover {
   opacity: 70%;
   box-shadow: 7px 7px 5px #cccccc;
+}
+body main {
+  z-index: 1;
 }
 body main #howitworks {
   display: flex;
