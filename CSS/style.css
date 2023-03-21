@@ -232,7 +232,6 @@ body main #restaurants .info {
 }
 body main #restaurants .info i {
   font-size: xx-large;
-  position: absolute;
   animation-name: animationheart;
   animation-duration: 3s;
 }
@@ -252,7 +251,6 @@ body main #restaurants .info .fa-solid {
 body main #restaurants .info .wrap {
   display: flex;
   align-items: center;
-  padding-left: 70px;
 }
 body main #restaurants .info .wrap:hover .fa-solid {
   display: block;
@@ -276,7 +274,6 @@ body main #restaurants .info a {
 body main #restaurants .info .txt {
   display: flex;
   flex-direction: column;
-  min-width: 80%;
 }
 body footer {
   background-color: rgb(44, 44, 44);

@@ -286,7 +286,6 @@ body {
 
     i {
         font-size: xx-large;
-        position: absolute;
         animation-name: animationheart;
         animation-duration: 3s;
     }
@@ -310,7 +309,6 @@ body {
        .wrap {
         display: flex;
         align-items: center;
-        padding-left: 70px;
        }
       
       .wrap:hover .fa-solid {
@@ -335,7 +333,7 @@ body {
     .txt {
         display: flex;
         flex-direction: column;
-        min-width: 80%;
+    
     }
 }
 
