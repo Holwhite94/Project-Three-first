@@ -237,6 +237,7 @@ body main #restaurants .info i {
 }
 body main #restaurants .info .fa-regular {
   color: grey;
+  position: absolute;
 }
 body main #restaurants .info .fa-solid {
   color: transparent;
@@ -247,6 +248,7 @@ body main #restaurants .info .fa-solid {
   display: none;
   animation-name: animationheart;
   animation-duration: 1s;
+  position: absolute;
 }
 body main #restaurants .info .wrap {
   display: flex;

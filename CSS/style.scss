@@ -293,6 +293,7 @@ body {
   
        .fa-regular {
         color: grey;
+        position:absolute;
       }
       
       .fa-solid {
@@ -304,6 +305,7 @@ body {
         display: none;
         animation-name: animationheart;
         animation-duration: 1s;
+        position: absolute;
     }
 
        .wrap {
