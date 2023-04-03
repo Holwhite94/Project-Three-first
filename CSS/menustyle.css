@@ -88,7 +88,7 @@ main #menu h5 {
 }
 main #menu .menucard {
   width: 95%;
-  margin-left: 20px;
+  margin: 5px;
   margin-bottom: 20px;
   border-radius: 20px;
   display: flex;
@@ -178,6 +178,14 @@ main #menu .txt:hover {
   }
   to {
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 380px) {
+  main #menu .txt {
+    min-width: 80%;
+  }
+  main #menu .txt:hover {
+    min-width: 70%;
   }
 }
 @media screen and (min-width: 992px) {

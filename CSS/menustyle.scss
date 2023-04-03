@@ -118,7 +118,7 @@ body {
 
         .menucard {
             width: 95%;
-            margin-left: 20px;
+            margin: 5px;
             margin-bottom: 20px;
             border-radius: 20px;
             display: flex;
@@ -214,6 +214,16 @@ body {
           @keyframes animation3 {
              from {margin-top: -20px;}
             to {margin-top: 0px;}
+          }
+
+          @media screen and (min-width: 380px) {
+            .txt {
+              min-width: 80%;
+            }
+
+            .txt:hover {
+              min-width: 70%;
+            }
           }
 
           @media screen and (min-width: 992px) {
