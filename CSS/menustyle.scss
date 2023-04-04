@@ -146,7 +146,7 @@ body {
 
            
               .txt {
-                min-width: 90%;
+                
                 padding: 10px;
                 transition: min-width 3s;
                 }
@@ -216,13 +216,13 @@ body {
             to {margin-top: 0px;}
           }
 
-          @media screen and (min-width: 380px) {
+          @media screen and (max-width: 380px) {
             .txt {
               min-width: 80%;
             }
 
             .txt:hover {
-              min-width: 70%;
+              min-width: 50%;
             }
           }
 

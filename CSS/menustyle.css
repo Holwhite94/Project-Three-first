@@ -112,7 +112,6 @@ main #menu .menucard .price {
   margin-right: 50px;
 }
 main #menu .menucard .txt {
-  min-width: 90%;
   padding: 10px;
   transition: min-width 3s;
 }
@@ -180,12 +179,12 @@ main #menu .txt:hover {
     margin-top: 0px;
   }
 }
-@media screen and (min-width: 380px) {
+@media screen and (max-width: 380px) {
   main #menu .txt {
     min-width: 80%;
   }
   main #menu .txt:hover {
-    min-width: 70%;
+    min-width: 50%;
   }
 }
 @media screen and (min-width: 992px) {
