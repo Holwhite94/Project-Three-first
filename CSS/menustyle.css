@@ -97,8 +97,7 @@ main #menu .menucard {
   background-color: white;
   box-shadow: 4px 4px 3px #cccccc;
   overflow: hidden;
-  animation-name: animation3;
-  animation-duration: 2s;
+  animation: animation2 4s, animation3 2s;
 }
 main #menu .menucard .menuitem {
   font-weight: bolder;
@@ -131,26 +130,6 @@ main #menu .menucard .tickdiv i {
   animation-name: animation1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-}
-main #menu #one, main #menu #two {
-  animation-name: animation2;
-  animation-duration: 2s;
-}
-main #menu #three, main #menu #four {
-  animation-name: animation2;
-  animation-duration: 3s;
-}
-main #menu #five, main #menu #six {
-  animation-name: animation2;
-  animation-duration: 4s;
-}
-main #menu #seven, main #menu #eight {
-  animation-name: animation2;
-  animation-duration: 5s;
-}
-main #menu #nine {
-  animation-name: animation2;
-  animation-duration: 5.5s;
 }
 @keyframes animation1 {
   from {
