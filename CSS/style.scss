@@ -223,7 +223,7 @@ h2 {
 
 
   .restimg {
-    height: 200px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     border-top-right-radius: 10px;
@@ -233,19 +233,19 @@ h2 {
 
    @media screen and (min-width: 600px) {
     .restimg {
-        height: 300px;
+        height: 400px;
     }
    }
 
    @media screen and (min-width: 992px) {
     .restimg {
-        height: 400px;
+        height: 500px;
     }
    }
    
    @media screen and (min-width: 1500px) {
     .restimg {
-        height: 500px;
+        height: 600px;
     }
    }
 

@@ -182,7 +182,7 @@ body main #restaurants h2 {
   padding-bottom: 20px;
 }
 body main #restaurants .restimg {
-  height: 200px;
+  height: 250px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -191,17 +191,17 @@ body main #restaurants .restimg {
 }
 @media screen and (min-width: 600px) {
   body main #restaurants .restimg {
-    height: 300px;
+    height: 400px;
   }
 }
 @media screen and (min-width: 992px) {
   body main #restaurants .restimg {
-    height: 400px;
+    height: 500px;
   }
 }
 @media screen and (min-width: 1500px) {
   body main #restaurants .restimg {
-    height: 500px;
+    height: 600px;
   }
 }
 body main #restaurants .restcards {
