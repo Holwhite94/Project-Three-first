@@ -139,7 +139,7 @@ header {
     }
 
  }
- 
+
  main {
     
   z-index: 1;
@@ -217,20 +217,38 @@ h2 {
     padding-top: 20px;
 
     h2 {
-        padding-left: 50px;
+        padding-left: 10%;
         padding-bottom: 20px;
     }
 
 
   .restimg {
-    height: 40%;
+    height: 200px;
     width: 100%;
-    margin: 20px;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     
    }
+
+   @media screen and (min-width: 600px) {
+    .restimg {
+        height: 300px;
+    }
+   }
+
+   @media screen and (min-width: 992px) {
+    .restimg {
+        height: 400px;
+    }
+   }
+   
+   @media screen and (min-width: 1500px) {
+    .restimg {
+        height: 500px;
+    }
+   }
+
 
 
  .restcards {
@@ -238,6 +256,7 @@ h2 {
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 4px 4px 4px $shadow;
+    margin: 20px;
       
     h5 {
         font-size: larger;

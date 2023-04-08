@@ -178,23 +178,38 @@ body main #restaurants {
   padding-top: 20px;
 }
 body main #restaurants h2 {
-  padding-left: 50px;
+  padding-left: 10%;
   padding-bottom: 20px;
 }
 body main #restaurants .restimg {
-  height: 40%;
+  height: 200px;
   width: 100%;
-  margin: 20px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+@media screen and (min-width: 600px) {
+  body main #restaurants .restimg {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 992px) {
+  body main #restaurants .restimg {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body main #restaurants .restimg {
+    height: 500px;
+  }
 }
 body main #restaurants .restcards {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 4px 4px 4px #cccccc;
+  margin: 20px;
 }
 body main #restaurants .restcards h5 {
   font-size: larger;
