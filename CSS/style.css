@@ -121,13 +121,13 @@ body header #booking input:hover {
 body main {
   z-index: 1;
 }
+body main h2 {
+  padding-left: 10%;
+}
 body main #howitworks {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-body main #howitworks h2 {
-  padding-right: 50%;
 }
 body main #howitworks .howcard {
   display: flex;
@@ -182,36 +182,13 @@ body main #restaurants h2 {
   padding-bottom: 20px;
 }
 body main #restaurants .restimg {
-  height: 300px;
+  height: 40%;
   width: 100%;
+  margin: 20px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-}
-@media screen and (max-width: 380px) {
-  body main #restaurants .restimg {
-    height: 200px;
-  }
-  body main #restaurants .restcards {
-    margin: 10px;
-  }
-}
-@media screen and (min-width: 768px) {
-  body main #restaurants .restimg {
-    height: 400px;
-  }
-}
-@media screen and (min-width: 992px) {
-  body main #restaurants .restimg {
-    height: 500px;
-  }
-  body main #restaurants h2 {
-    padding-left: 100px;
-  }
-  body main #restaurants .restcards {
-    margin: 30px;
-  }
 }
 body main #restaurants .restcards {
   display: flex;
