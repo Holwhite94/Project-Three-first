@@ -157,7 +157,7 @@ body {
     align-items: center;
 
     h2 {
-        padding-right: 60%;
+        padding-right: 50%;
     }
 
 
@@ -195,6 +195,15 @@ body {
             align-items: center;
             padding-left: 10px;
         }
+
+        @media screen and (max-width: 380px) {
+            #p5, #p7, #p9 {
+                font-size: small;
+                
+            }
+        }
+
+        
     }
 
     .howcard:hover {
@@ -215,18 +224,29 @@ body {
     padding-top: 20px;
 
     h2 {
-        padding-left: 70px;
+        padding-left: 50px;
         padding-bottom: 20px;
     }
 
 
   .restimg {
     height: 300px;
-    width: 80%;
+    width: 100%;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    box-shadow: 4px 0px 4px #cccccc;
+    
+   }
+
+   @media screen and (max-width: 380px) {
+
+    .restimg {
+        height: 200px; 
+    }
+
+    .restcards {
+        margin: 10px;
+    }
    }
 
    @media screen and (min-width: 768px) {
@@ -255,7 +275,8 @@ body {
  .restcards {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px $shadow;
       
     h5 {
         font-size: larger;
@@ -275,15 +296,12 @@ body {
 
  .info {
     padding: 5px;
-    min-width: 80%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    box-shadow: 4px 4px 4px $shadow;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
-
     i {
         font-size: xx-large;
         animation-name: animationheart;
@@ -335,6 +353,7 @@ body {
     .txt {
         display: flex;
         flex-direction: column;
+        padding-left: 5px;
     
     }
 }
@@ -343,12 +362,15 @@ body {
  }
   footer {
     background-color: rgb(44, 44, 44);
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 20px;
+    margin-top: -10px;
 
    h1 {
     font-family: $titlesFont;
     color: white;
+    font-size: large;
+    padding-top: 20px;
    }
 
    p {

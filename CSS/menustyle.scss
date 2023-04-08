@@ -280,10 +280,13 @@ body {
     background-color: rgb(44, 44, 44);
     padding-left: 20px;
     padding-bottom: 20px;
+    margin-top: -10px;
 
    h1 {
     font-family: $titlesFont;
     color: white;
+    font-size: large;
+    padding-top: 20px;
    }
 
    p {
