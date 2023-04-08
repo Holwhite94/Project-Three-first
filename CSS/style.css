@@ -176,6 +176,7 @@ body main #howitworks .howcard:hover i {
 body main #restaurants {
   background-color: #f2f2f2;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 body main #restaurants h2 {
   padding-left: 10%;
