@@ -118,7 +118,7 @@ body {
 
         .menucard {
             width: 95%;
-            margin: 5px;
+            margin-left: 10px;
             margin-bottom: 20px;
             border-radius: 20px;
             display: flex;
@@ -144,8 +144,8 @@ body {
 
            
               .txt {
-                
-                padding: 10px;
+                min-width: 75%;                
+                padding-left: 15px;
                 transition: min-width 3s;
                 }
 
@@ -176,7 +176,7 @@ body {
           }
           
           .txt:hover {
-            min-width: 70%;
+            min-width: 50%;
           }
 
           @keyframes animation2 {
@@ -189,36 +189,31 @@ body {
             to {margin-top: 0px;}
           }
 
-          @media screen and (max-width: 380px) {
-            .txt {
-              min-width: 80%;
-            }
+          @media screen and (min-width: 380px) {
 
-            .txt:hover {
-              min-width: 50%;
+            .txt {
+              padding-right: 10%;
             }
           }
 
-          @media screen and (min-width: 992px) {
-            .menucard {
-              width: 90%;
-              margin-left: 30px;
-            }
+          @media screen and (min-width: 600px) {
 
             .txt {
-              min-width: 90%;
-            }
-
-            .price { 
-              padding-left: 200px;
-              padding-right: 50px;
+              padding-right: 15%;
             }
           }
 
-          @media screen and (min-width:768px) {
-              
-            .price {
-              padding-left: 20px;
+          @media screen and (min-width: 915px) {
+
+            .txt {
+              padding-right: 20%;
+            }
+          }
+
+          @media screen and (min-width: 1890px) {
+
+            .txt {
+              padding-right: 22%;
             }
           }
         }

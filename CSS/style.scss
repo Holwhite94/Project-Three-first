@@ -148,6 +148,16 @@ h2 {
     padding-left: 10%;
 }
 
+@keyframes animation2 {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+  
+  @keyframes animation3 {
+     from {margin-top: -20px;}
+    to {margin-top: 0px;}
+  }
+
 #howitworks {
 
     display:flex;
@@ -161,6 +171,7 @@ h2 {
         width: 80%;
         margin-bottom: 5%;
         border-radius: 20px;
+        animation: animation2 4s, animation3 2s;
 
       i {
         display: flex;

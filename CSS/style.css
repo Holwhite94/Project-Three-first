@@ -124,6 +124,22 @@ body main {
 body main h2 {
   padding-left: 10%;
 }
+@keyframes animation2 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes animation3 {
+  from {
+    margin-top: -20px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
 body main #howitworks {
   display: flex;
   flex-direction: column;
@@ -136,6 +152,7 @@ body main #howitworks .howcard {
   width: 80%;
   margin-bottom: 5%;
   border-radius: 20px;
+  animation: animation2 4s, animation3 2s;
 }
 body main #howitworks .howcard i {
   display: flex;
